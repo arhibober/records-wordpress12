@@ -1,0 +1,899 @@
+# Translation of Themes - VW Pet Shop in Russian
+# This file is distributed under the same license as the Themes - VW Pet Shop package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-26 07:09:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - VW Pet Shop\n"
+
+#. Description of the plugin/theme
+msgid "VW Pet Shop is a WordPress theme presented by VowelWeb for designing a website or a blog related to Pets. This theme can be used for almost all the businesses related to animal care or shops. The theme can be used by pet shops, animal care, veterinary doctors, pet groomers, pet and animal bloggers, pet consultant, pet spa, animal accessories shop etc. It has a simple and interactive design which enables the user to seek the right solution to their problem without any hassle. It has personalised option to use it according to your need. Clean and secure codes are implemented using shortcodes. It is loaded with awesome features still it is a light-weight theme which loads fast. These all things contribute to making it a search engine optimized theme to get your site a higher place in search engines. This animal WordPress theme is responsive, cross-browser compatible, translation ready and has call to action button (CTA). Its social media icons will widen the reach of your site and its content and will help increase the influx of visitors to your site. It has a beautiful design to make your site stand apart from your competitors. These features combined make it an ideal pet WordPress theme. Demo: https://vwthemes.net/vw-pet-shop-pro/"
+msgstr "VW Pet Shop - это тема WordPress, предоставленная VowelWeb для разработки веб-сайта или блога, связанного с домашними животными. Эта тема может использоваться практически для всех бизнесов, связанных с уходом за животными или магазинами. Тема может быть использована зоомагазинами, уходом за животными, ветеринарами, парихмахерами животных, блогером о домашнимих животных и животных, консультантом для домашних животных, спа для животных, магазином для принадлежностей для животных и т. д. Она имеет простой и интерактивный дизайн, который позволяет пользователю искать правильное решение к их проблеме без каких-либо хлопот. Она имеет индивидуальные варианты использования в соответствии с вашими потребностями. Простой и безопасный код внедрен для использования коротких кодов. Она наполнена удивительными функциями, но это легкая тема, которая быстро загружается. Все это способствует созданию оптимизированной для поисковой системы темы, чтобы ваш сайт занимал более высокое место в поисковых системах. Эта тема WordPress для животных является адаптивной, кросс-браузерной, готова к переводу и имеет кнопку призыва к действию (CTA). Ее значки в социальных сетях расширят охват вашего сайта и его содержимого и помогут увеличить приток посетителей на ваш сайт. Она имеет красивый дизайн, чтобы ваш сайт выделялся от ваших конкурентов. Эти комбинированные функции делают его идеальной темой для WordPress. Демо: https://vwthemes.net/vw-pet-shop-pro/"
+
+#: inc/get-started/get-started.php:65
+msgid "VW Pet Shop is a WordPress theme presented by VowelWeb for designing a website or a blog related to Pets. This theme can be used for almost all the businesses related to animal care or shops. The theme can be used by pet shops, animal care, veterinary doctors, pet groomers, pet and animal bloggers, pet consultant, pet spa, animal accessories shop etc. It has a simple and interactive design which enables the user to seek the right solution to their problem without any hassle. It has personalised option to use it according to your need. Clean and secure codes are implemented using shortcodes. It is loaded with awesome features still it is a light-weight theme which loads fast. These all things contribute to making it a search engine optimized theme to get your site a higher place in search engines. This animal WordPress theme is responsive, cross-browser compatible, translation ready and has call to action button (CTA). Its social media icons will widen the reach of your site and its content and will help increase the influx of visitors to your site. It has a beautiful design to make your site stand apart from your competitors. These features combined make it an ideal pet WordPress theme."
+msgstr "VW Pet Shop - это тема WordPress, предоставленная VowelWeb для разработки веб-сайта или блога, связанного с домашними животными. Эта тема может использоваться практически для всех бизнесов, связанных с уходом за животными или магазинами. Тема может быть использована зоомагазинами, уходом за животными, ветеринарами, парихмахерами животных, блогером о домашнимих животных и животных, консультантом для домашних животных, спа для животных, магазином для принадлежностей для животных и т. д. Она имеет простой и интерактивный дизайн, который позволяет пользователю искать правильное решение к их проблеме без каких-либо хлопот. Она имеет индивидуальные варианты использования в соответствии с вашими потребностями. Простой и безопасный код внедрен для использования коротких кодов. Она наполнена удивительными функциями, но это легкая тема, которая быстро загружается. Все это способствует созданию оптимизированной для поисковой системы темы, чтобы ваш сайт занимал более высокое место в поисковых системах. Эта тема WordPress для животных является адаптивной, кросс-браузерной, готова к переводу и имеет кнопку призыва к действию (CTA). Ее значки в социальных сетях расширят охват вашего сайта и его содержимого и помогут увеличить приток посетителей на ваш сайт. Она имеет красивый дизайн, чтобы ваш сайт выделялся от ваших конкурентов. Эти комбинированные функции делают его идеальной темой для WordPress."
+
+#. Theme Name of the plugin/theme
+msgid "VW Pet Shop"
+msgstr "VW Pet Shop"
+
+#: header.php:17
+msgid "http://gmpg.org/xfn/11"
+msgstr "http://gmpg.org/xfn/11"
+
+#: inc/logo-resizer.php:19
+msgid "Logo Size"
+msgstr "Размер логотипа"
+
+#: inc/get-started/get-started.php:377
+msgid "Demo Content"
+msgstr "Демонтстрационное содержание"
+
+#: inc/get-started/get-started.php:375
+msgid "We are providing the demo content file within the theme folder.  You will require an importer plugin to import the demo content."
+msgstr "Мы предоставляем файл демо-контента в папке темы. Для импорта демонстрационного контента вам потребуется плагин импортера."
+
+#: inc/get-started/get-started.php:374
+msgid "Theme Demo Content"
+msgstr "Демо-контент темы"
+
+#: inc/get-started/get-started.php:369
+msgid "Contact Us"
+msgstr "Обратная связь"
+
+#: inc/get-started/get-started.php:367
+msgid "If you have any queries after purchase, you can contact us. We are eveready to help you out."
+msgstr "Если у вас есть вопросы после покупки, вы можете связаться с нами. Мы всегда готовы помочь вам."
+
+#: inc/get-started/get-started.php:366
+msgid "Post-purchase Queries"
+msgstr "Вопросы после покупки"
+
+#: inc/get-started/get-started.php:361
+msgid "View FAQ"
+msgstr "Посмотрите \"Частые вопросы\""
+
+#: inc/get-started/get-started.php:359
+msgid "We have gathered top most, frequently asked questions and answered them for your easy understanding. We will list down more as we get new challenging queries. Check back often."
+msgstr "Мы собрали самые популярные, часто задаваемые вопросы и ответили на них, для того что бы вы лучше понимали. Мы будем добавлять больше ответов, поскольку у нас появятся новые интересные вопросы. Проверяйте их чаще."
+
+#: inc/get-started/get-started.php:358
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы"
+
+#: inc/get-started/get-started.php:353
+msgid "About Child Theme"
+msgstr "Про дочернюю тему"
+
+#: inc/get-started/get-started.php:351
+msgid "For theme file customizations, make modifications in the child theme and not in the main theme file."
+msgstr "Для настроек файла темы внесите изменения в дочернюю тему, а не в файл основной темы."
+
+#: inc/get-started/get-started.php:350
+msgid "Child Theme"
+msgstr "Дочерняя тема"
+
+#: inc/get-started/get-started.php:346
+msgid "Question"
+msgstr "Вопрос"
+
+#: inc/get-started/get-started.php:344
+msgid "If you have any pre-sale query, we are prepared to resolve it."
+msgstr "Если у вас есть предпродажный вопрос, мы готовы на него ответить."
+
+#: inc/get-started/get-started.php:343
+msgid "Pre-purchase Queries"
+msgstr "Предпродажные вопросы"
+
+#: inc/get-started/get-started.php:339
+msgid "Get Pro"
+msgstr "Получить Pro"
+
+#: inc/get-started/get-started.php:337
+msgid "To gain access to extra theme options and more interesting features, upgrade to pro version."
+msgstr "Чтобы получить доступ к дополнительным параметрам темы и более интересным функциям, выполните обновление до версии pro."
+
+#: inc/get-started/get-started.php:336
+msgid "Pro Version"
+msgstr "Версия PRO"
+
+#: inc/get-started/get-started.php:319
+msgid "Seamless Customer Support"
+msgstr "Полная поддержка клиентов"
+
+#: inc/get-started/get-started.php:314
+msgid "All Access Theme Pass"
+msgstr "Все доступы темы проверены"
+
+#: inc/get-started/get-started.php:309
+msgid "Custom Feature Addition"
+msgstr "Добавление пользовательской функции"
+
+#: inc/get-started/get-started.php:304
+msgid "Priority Error Fixing"
+msgstr "Исправление приоритетной ошибки"
+
+#: inc/get-started/get-started.php:299
+msgid "Budget Friendly Value"
+msgstr "Бюджетная дружеская стоимость"
+
+#: inc/get-started/get-started.php:294
+msgid "Premium Membership"
+msgstr "Премиум членство"
+
+#: inc/get-started/get-started.php:289
+msgid "Custom Background, Colors, Header, Logo & Menu"
+msgstr "Пользовательский фон, цвета, шапка, логотип и меню"
+
+#: inc/get-started/get-started.php:284
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: inc/get-started/get-started.php:279
+msgid "Support to add custom CSS / JS "
+msgstr "Поддержка добавления пользовательских CSS / JS "
+
+#: inc/get-started/get-started.php:274
+msgid "Simple & Mega Menu Option"
+msgstr "Настройки простого и Mega Menu"
+
+#: inc/get-started/get-started.php:269
+msgid "Gallery"
+msgstr "Галерея"
+
+#: inc/get-started/get-started.php:264
+msgid "Section Google Font Choices"
+msgstr "Раздел выбора Google шрифтов"
+
+#: inc/get-started/get-started.php:259
+msgid "Section Enable / Disable"
+msgstr "Раздел Включить / выключить"
+
+#: inc/get-started/get-started.php:254
+msgid "Exclusive Functionalities"
+msgstr "Эксклюзивные функции"
+
+#: inc/get-started/get-started.php:249
+msgid "Secure and Optimized Code"
+msgstr "Безопасный и оптимизированый код"
+
+#: inc/get-started/get-started.php:244
+msgid "Support 3rd Party Plugins"
+msgstr "Поддержка плагинов сторонних разработчиков"
+
+#: inc/get-started/get-started.php:239
+msgid "Woo-Commerce Compatibility"
+msgstr "Совместимость с Woo-Commerce"
+
+#: inc/get-started/get-started.php:234
+msgid "Latest WordPress Compatibility"
+msgstr "Совместимость с последними версиями WordPress"
+
+#: inc/get-started/get-started.php:229
+msgid "Full Documentation"
+msgstr "Полная документация"
+
+#: inc/get-started/get-started.php:226
+msgid "2(Left/Right Sidebar)"
+msgstr "2(Левая/Правая боковая панель)"
+
+#: inc/get-started/get-started.php:224
+msgid "Page Templates & Layout"
+msgstr "Шаблон и разметка страницы"
+
+#: inc/get-started/get-started.php:221
+msgid "3(Full width/Left/Right Sidebar)"
+msgstr "3(Полноэкранный/Левая/Правая боковая панель)"
+
+#: inc/get-started/get-started.php:219
+msgid "Blog Templates & Layout"
+msgstr "Шаблоны и разметка блога"
+
+#: inc/get-started/get-started.php:214
+msgid "Contact us Page Template"
+msgstr "Шаблон страницы \"Свяжитесь с нами\""
+
+#: inc/get-started/get-started.php:210 inc/get-started/get-started.php:211
+#: inc/get-started/get-started.php:216
+msgid "1"
+msgstr "1"
+
+#: inc/get-started/get-started.php:209
+msgid "Home Page Template"
+msgstr "Шаблон домашней страницы"
+
+#: inc/get-started/get-started.php:206
+msgid "6"
+msgstr "6"
+
+#: inc/get-started/get-started.php:205
+msgid "3"
+msgstr "3"
+
+#: inc/get-started/get-started.php:204
+msgid "Template Pages"
+msgstr "Шаблон страниц"
+
+#: inc/get-started/get-started.php:201
+msgid "Unlimited"
+msgstr "неограниченно"
+
+#: inc/get-started/get-started.php:200
+msgid "4"
+msgstr "4"
+
+#: inc/get-started/get-started.php:199
+msgid "Number of Slides"
+msgstr "Количество слайдов"
+
+#: inc/get-started/get-started.php:189
+msgid "Social Media Links"
+msgstr "Ссылки на социальные сети"
+
+#: inc/get-started/get-started.php:184
+msgid "Logo Upload"
+msgstr "Загрузка логотипа"
+
+#: inc/get-started/get-started.php:179
+msgid "Responsive Design"
+msgstr "Отзывчивый дизайн"
+
+#: inc/get-started/get-started.php:174
+msgid "Theme Customization"
+msgstr "Настройка темы"
+
+#: inc/get-started/get-started.php:169
+msgid "Premium Themes"
+msgstr "Премиум темы"
+
+#: inc/get-started/get-started.php:168
+msgid "Free Themes"
+msgstr "Бесплатные темы"
+
+#: inc/get-started/get-started.php:161
+msgid "Theme Features"
+msgstr "Возможности темы"
+
+#: inc/get-started/get-started.php:154
+msgid "Pro Documentation"
+msgstr "Профессиональная документация"
+
+#: inc/get-started/get-started.php:153
+msgid "Buy Pro"
+msgstr "Купить ПРО версию"
+
+#: inc/get-started/get-started.php:152
+msgid "Live Demo"
+msgstr "Демонстрация"
+
+#: inc/get-started/get-started.php:150
+msgid "The premium pet WordPress theme is the best solution for all those dealing with animals in any form. It can be used for a blog, a website or for a portfolio. It can be used for businesses like pet shop, animal accessories shop, pet spa and pet food shop etc. You may also find it useful if you are a veterinary doctor, pet consultant, animal blogger, pet food consultant or an animal protection and welfare worker. It is a minimal theme with a beautiful and stunning design to attract users attention and compel them to use it and spend some good time on your site. Its easy navigation and clean design will give them a good user experience. It does not only show your products and services but also show your professionalism, expertise and sincerity in doing business effectively. Its testimonial section will be the proof of your credibility. Our experts have dedicatedly designed it to give maximum exposure to your work. It is so easy to tweak that you can kick start your business within minutes after purchasing it. No need to spend hours of your valuable time in making it look like you wished it to."
+msgstr "Per это WordPress тема премиум-класса - лучшее решение для всех, кто связан с животными. Он может использоваться для блога, веб-сайта или для портфолио. Он может использоваться для бизнеса, таких как магазин для животных, магазин принадлежностей для животных, спа для животных и магазин питания для животных и т. д. Также тема станет полезной если вы ветеринарный врач, консультант для домашних животных, блогер о животных, консультант по питанию для домашних животных или защитник животных и заботитесь о них. Это минимальная тема с красивым и потрясающим дизайном, что привлекает внимание пользователей и заставляет их  взаимодействовать с ней и помогает приятно и позновательно провести время на вашем сайте. Ее легкая навигация и простой дизайн оставят приятное впечатление у посетителей. Она не только показывает ваши товары и услуги, но и ваш профессионализм, опыт и искренность в эффективном бизнесе. Ее раздел отзывов станет доказательством доверия к вам. Наши специалисты специально разработали ее, чтобы максимально она максимально соответствовала вашим требованияем. Тему легко настроить, так что вы можете начать свой бизнес в течение нескольких минут после покупки темы. Не нужно тратить часы вашего драгоценного времени, чтобы выглядеть так, как вы этого хотели."
+
+#: inc/get-started/get-started.php:147
+msgid "Premium Theme Information"
+msgstr "Информация о премиум теме"
+
+#: inc/get-started/get-started.php:141
+msgid " Once you are done with this, you can see all the demo content on front page. "
+msgstr "Как только вы закончите с этим, вы сможете увидеть весь демонстрационный контент на первой странице."
+
+#: inc/get-started/get-started.php:139
+msgid " Settings -&gt; Reading --&gt; Set the front page display static page to home page "
+msgstr "Насткройки -&gt; Чтение --&gt; Установите статическую страницу как домашнюю страницу "
+
+#: inc/get-started/get-started.php:138
+msgid " Go to "
+msgstr "Перейти"
+
+#: inc/get-started/get-started.php:138
+msgid "2. Set the front page:"
+msgstr "2. Установить главную страницу:"
+
+#: inc/get-started/get-started.php:136
+msgid "Label it \"home\" or anything as you wish. Then select template \"home-page\" from template dropdown."
+msgstr "Пометьте ее как «главная» или как вам больше нравиться. Затем выберите шаблон «домашняя страница» из раскрывающегося списка шаблонов."
+
+#: inc/get-started/get-started.php:135
+msgid "Dashboard &gt;&gt; Pages &gt;&gt; Add New Page"
+msgstr "Консоль &gt;&gt; Страницы &gt;&gt; Добавить новую страницу"
+
+#: inc/get-started/get-started.php:134
+msgid "1. Create a Page to set template:  Go to "
+msgstr "1. Создайте страницу для установки шаблона: Перейдите в "
+
+#: inc/get-started/get-started.php:132
+msgid "Follow these instructions to setup Home page."
+msgstr "Следуйте этим инструкциям, чтобы настроить домашнюю страницу."
+
+#: inc/get-started/get-started.php:130
+msgid "How to set up Home Page Template"
+msgstr "Как настроить шаблон домашней страницы"
+
+#: inc/get-started/get-started.php:123
+msgid "Footer Text"
+msgstr "Текст подвала"
+
+#: inc/get-started/get-started.php:120
+msgid "Blog Layout"
+msgstr "Макет блога"
+
+#: inc/get-started/get-started.php:115
+msgid "Menus"
+msgstr "Меню"
+
+#: inc/get-started/get-started.php:96
+msgid "Upload your logo"
+msgstr "Загрузите ваше лого"
+
+#: inc/get-started/get-started.php:91
+msgid "Link to customizer"
+msgstr "Ссылка на настройщик"
+
+#: inc/get-started/get-started.php:88
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: inc/get-started/get-started.php:86
+msgid "All the features and aspects of this WordPress Theme are phenomenal. I'd recommend this theme to all."
+msgstr "Все функции и аспекты этой WordPress темы феноменальны. Я бы рекомендовал эту тему всем."
+
+#: inc/get-started/get-started.php:85
+msgid "Reviews & Testimonials"
+msgstr "Обзоры и отзывы"
+
+#: inc/get-started/get-started.php:82
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: inc/get-started/get-started.php:80
+msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
+msgstr "Наша целеустремленная команда хорошо подготовлена, чтобы помочь вам в случае вопросов и сомнений относительно нашей темы."
+
+#: inc/get-started/get-started.php:79
+msgid "Having Trouble, Need Support?"
+msgstr "Проблемы, нужна в поддержка?"
+
+#: inc/get-started/get-started.php:76
+msgid "Customizing"
+msgstr "Настройка"
+
+#: inc/get-started/get-started.php:74
+msgid "To begin customizing your website, start by clicking \"Customize\"."
+msgstr "Чтобы начать настройку своего сайта, начните с нажатия «Настроить»."
+
+#: inc/get-started/get-started.php:73
+msgid "Theme Customizer"
+msgstr "Настройщик темы"
+
+#: inc/get-started/get-started.php:68
+msgid "If you need any assistance regarding setting up and configuring the Theme, our documentation is there."
+msgstr "Если вам нужна помощь в установке и настройке темы, тут наша документация."
+
+#: inc/get-started/get-started.php:67
+msgid "Theme Documentation"
+msgstr "Документация темы"
+
+#: inc/get-started/get-started.php:63
+msgid "Lite Theme Information"
+msgstr "Информация об облегченной теме"
+
+#: inc/get-started/get-started.php:58
+msgid "Support"
+msgstr "Техподдержка"
+
+#: inc/get-started/get-started.php:57
+msgid "Get Premium"
+msgstr "Приобрести Премиум"
+
+#: inc/get-started/get-started.php:56
+msgid "Getting Started"
+msgstr "Приступаем к работе"
+
+#: inc/get-started/get-started.php:49 inc/get-started/get-started.php:326
+msgid "Upgrade to Pro"
+msgstr "Обновиться до PRO-версии"
+
+#: inc/get-started/get-started.php:47
+msgid "vwten2018"
+msgstr "vwten2018"
+
+#: inc/get-started/get-started.php:47
+msgid "Use Coupon"
+msgstr "Использовать купон"
+
+#: inc/get-started/get-started.php:46
+msgid "Buy VW Petshop at 10% Discount"
+msgstr "Купите VW Petshop с 10% скидкой"
+
+#: inc/get-started/get-started.php:39
+msgid "All our WordPress themes are modern, minimalist, 100% responsive, seo-friendly,feature-rich, and multipurpose that best suit designers, bloggers and other professionals who are working in the creative fields."
+msgstr "Все наши WordPress темы являются современными, минималистичными, 100% адаптивными, подготовлеными к seo, с богатым функционалом и многофункциональными, которые идеально подойдут дизайнерам, блоггерам и другим профессионалам, которые работают в области творчества."
+
+#: inc/get-started/get-started.php:38
+msgid "Welcome to VW Petshop Theme"
+msgstr "Добро пожаловать в тему VW Petshop"
+
+#: inc/get-started/get-started.php:5
+msgid "About VW Petshop Lite"
+msgstr "Проt VW Petshop Lite"
+
+#: inc/get-started/get-started.php:5
+msgid "About VW Petshop Theme"
+msgstr "Про тему VW Petshop"
+
+#: inc/customizer.php:683
+msgid "Docs"
+msgstr "Документация"
+
+#: inc/customizer.php:682 inc/get-started/get-started.php:70
+msgid "Documentation"
+msgstr "Документация"
+
+#: inc/customizer.php:460
+msgid "h6 Font Size"
+msgstr "H6 размер шрифта"
+
+#: inc/customizer.php:448
+msgid "h6 Fonts"
+msgstr "h6 шрифты"
+
+#: inc/customizer.php:434
+msgid "h6 Color"
+msgstr "h6 цвет"
+
+#: inc/customizer.php:422
+msgid "h5 Font Size"
+msgstr "H5 размер шрифта"
+
+#: inc/customizer.php:410
+msgid "h5 Fonts"
+msgstr "h5 шрифты"
+
+#: inc/customizer.php:396
+msgid "h5 Color"
+msgstr "h5 цвет"
+
+#: inc/customizer.php:384
+msgid "h4 Font Size"
+msgstr "H4 размер шрифта"
+
+#: inc/customizer.php:372
+msgid "h4 Fonts"
+msgstr "h4 шрифты"
+
+#: inc/customizer.php:358
+msgid "h4 Color"
+msgstr "h4 цвет"
+
+#: inc/customizer.php:346
+msgid "h3 Font Size"
+msgstr "H3 размер шрифта"
+
+#: inc/customizer.php:334
+msgid "h3 Fonts"
+msgstr "h3 шрифты"
+
+#: inc/customizer.php:320
+msgid "h3 Color"
+msgstr "h3 цвет"
+
+#: inc/customizer.php:308
+msgid "h2 Font Size"
+msgstr "H2 размер шрифта"
+
+#: inc/customizer.php:296
+msgid "h2 Fonts"
+msgstr "h2 шрифты"
+
+#: inc/customizer.php:282
+msgid "h2 Color"
+msgstr "h2 цвет"
+
+#: inc/customizer.php:270
+msgid "H1 Font Size"
+msgstr "H1 размер шрифта"
+
+#: inc/customizer.php:258
+msgid "H1 Fonts"
+msgstr "H1 шрифты"
+
+#: inc/customizer.php:244
+msgid "H1 Color"
+msgstr "H1 цвет"
+
+#: inc/customizer.php:233
+msgid "\"li\" Tag Fonts"
+msgstr "\"li\" метка шрифтов"
+
+#: inc/customizer.php:219
+msgid "\"li\" Tag Color"
+msgstr "\"li\" метка цвета"
+
+#: inc/customizer.php:208
+msgid "\"a\" Tag Fonts"
+msgstr "\"a\" метка шрифтов"
+
+#: inc/customizer.php:194
+msgid "\"a\" Tag Color"
+msgstr "\"a\" метка цвета"
+
+#: inc/customizer.php:182
+msgid "Paragraph Font Size"
+msgstr "Размер шрифта параграфа"
+
+#: inc/customizer.php:171
+msgid "Paragraph Fonts"
+msgstr "Шрифты параграфа"
+
+#: inc/customizer.php:157
+msgid "Paragraph Color"
+msgstr "Цвет параграфа"
+
+#: inc/customizer.php:146 inc/get-started/get-started.php:99
+msgid "Typography"
+msgstr "Типография"
+
+#. translators: %s: post title
+#: comments.php:31
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий к &ldquo;%s&rdquo;"
+
+#. Template Name of the plugin/theme
+msgid "Page with Right Sidebar"
+msgstr "Страница с правой боковой колонкой"
+
+#. Template Name of the plugin/theme
+msgid "Page with Left Sidebar"
+msgstr "Страница с левой боковой колонкой"
+
+#. Template Name of the plugin/theme
+msgid "Custom Home"
+msgstr "Пользовательская домашняя страница"
+
+#: template-parts/single-post-layout.php:39
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: template-parts/single-post-layout.php:38
+msgid "Previous"
+msgstr "Назад"
+
+#: template-parts/single-post-layout.php:36
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: template-parts/single-post-layout.php:35
+msgid "Next"
+msgstr "Далее"
+
+#: template-parts/single-post-layout.php:30
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">%title</span>"
+
+#: template-parts/image-layout.php:32
+msgid "Edit"
+msgstr "Изменить"
+
+#: template-parts/image-layout.php:27
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: template-parts/content-audio.php:56 template-parts/content-gallery.php:44
+#: template-parts/content-image.php:37 template-parts/content-video.php:56
+#: template-parts/content.php:37 template-parts/grid-layout.php:25
+msgid "Read More"
+msgstr "Подробнее"
+
+#: sidebar.php:17
+msgid "Meta"
+msgstr "Мета"
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr "Архивы"
+
+#: searchform.php:12
+msgctxt "submit button"
+msgid "Search"
+msgstr "Искать"
+
+#: searchform.php:10
+msgctxt "placeholder"
+msgid "Search"
+msgstr "Найти"
+
+#: page-template/custom-home-page.php:79
+msgid "Pet Collection"
+msgstr "Домашние животное"
+
+#: page-template/custom-home-page.php:59
+msgid "SHOP NOW"
+msgstr "ПОКУПАЙ СЕЙЧАС"
+
+#: no-results.php:26
+msgid "Back to Home Page"
+msgstr "Перейти на домашнюю страницу"
+
+#: no-results.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: index.php:17
+msgid "Post Page"
+msgstr "Страница записи"
+
+#: inc/customizer.php:669
+msgid "Upgrade Pro"
+msgstr "Обновиться до Pro"
+
+#: inc/customizer.php:668
+msgid "VW Pet Pro"
+msgstr "VW Pet Pro"
+
+#: inc/customizer.php:582
+msgid "Copyright Text"
+msgstr "Текст авторского права"
+
+#: inc/customizer.php:573
+msgid "This section will appear in the footer"
+msgstr "Этот раздел появится в футере"
+
+#: inc/customizer.php:572
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#: inc/customizer.php:564
+msgid "Select Page"
+msgstr "Выберите страницу"
+
+#: inc/customizer.php:551
+msgid "Section Title"
+msgstr "Заголовок раздела"
+
+#: inc/customizer.php:542
+msgid "This section will appear below the slider."
+msgstr "Этот раздел появится под слайдером."
+
+#: inc/customizer.php:541 inc/get-started/get-started.php:107
+msgid "Pets Collection"
+msgstr "Домашние животные"
+
+#: inc/customizer.php:533
+msgid "Select Slide Image Page"
+msgstr "Выберите страницу слайдов"
+
+#: inc/customizer.php:520 inc/get-started/get-started.php:104
+#: inc/get-started/get-started.php:194
+msgid "Slider Settings"
+msgstr "Настройки слайдера"
+
+#: inc/customizer.php:512
+msgid "Add My Account Page Link"
+msgstr "Добавить сслку на страницу моей учетной записи"
+
+#: inc/customizer.php:501
+msgid "Add Time"
+msgstr "Добавить время"
+
+#: inc/customizer.php:490
+msgid "Add Email Address"
+msgstr "Добавьте адресс почты"
+
+#: inc/customizer.php:479
+msgid "Add Contact Details"
+msgstr "Добавить контактные детали"
+
+#: inc/customizer.php:469
+msgid "Add Header Content here"
+msgstr "Добавьте сюда содержимое шапки"
+
+#: inc/customizer.php:468 inc/get-started/get-started.php:112
+msgid "Topbar Section"
+msgstr "Раздел верхней панели"
+
+#: inc/customizer.php:45
+msgid "Grid Layout"
+msgstr "Сетчатый макет"
+
+#: inc/customizer.php:44
+msgid "Four Columns"
+msgstr "Четыре колонки"
+
+#: inc/customizer.php:43
+msgid "Three Columns"
+msgstr "Три колонки"
+
+#: inc/customizer.php:42
+msgid "One Column"
+msgstr "Один столбец"
+
+#: inc/customizer.php:40
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+#: inc/customizer.php:37
+msgid "Do you want this section"
+msgstr "Вы хотите этот раздел"
+
+#: inc/customizer.php:32 inc/customizer.php:41
+msgid "Right Sidebar"
+msgstr "Правая колонка"
+
+#: inc/customizer.php:25
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: inc/customizer.php:21
+msgid "Description of what this panel does."
+msgstr "Описание того, что делает эта панель."
+
+#: inc/customizer.php:20
+msgid "VW Settings"
+msgstr "Настройки VW"
+
+#: header.php:84
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:59
+msgid "My Account"
+msgstr "Моя учётная запись"
+
+#: header.php:54
+msgid "Mon - Fri 8:00am to 7:00pm "
+msgstr "Пон - Пят 8:00 до 7:00"
+
+#: header.php:39
+msgid "abcdefxyz@gmail.com"
+msgstr "abcdefxyz@gmail.com"
+
+#: header.php:34
+msgid "8958-895-569"
+msgstr "8958-895-569"
+
+#: functions.php:384
+msgid "VWThemes"
+msgstr "VWThemes"
+
+#: functions.php:122
+msgid "Appears on footer 4"
+msgstr "Появится в футере 4"
+
+#: functions.php:121
+msgid "Footer Navigation 4"
+msgstr "Навигация в подвале 4"
+
+#: functions.php:112
+msgid "Appears on footer 3"
+msgstr "Появится в футере 3"
+
+#: functions.php:111
+msgid "Footer Navigation 3"
+msgstr "Навигация в подвале 3"
+
+#: functions.php:102
+msgid "Appears on footer 2"
+msgstr "Появится в футере 4"
+
+#: functions.php:101
+msgid "Footer Navigation 2"
+msgstr "Навигация в подвале 2"
+
+#: functions.php:92
+msgid "Appears on footer 1"
+msgstr "Появится в футере 1"
+
+#: functions.php:91
+msgid "Footer Navigation 1"
+msgstr "Навигация в подвале 1"
+
+#: functions.php:81
+msgid "Sidebar 3"
+msgstr "Боковая панель 3"
+
+#: functions.php:72 functions.php:82
+msgid "Appears on page sidebar"
+msgstr "Появится на боковой панели страницы"
+
+#: functions.php:71
+msgid "Page Sidebar"
+msgstr "Боковая панель страницы"
+
+#: functions.php:62
+msgid "Appears on blog page sidebar"
+msgstr "Появится на боковой панели страницы блога"
+
+#: functions.php:61
+msgid "Blog Sidebar"
+msgstr "Боковая панель блога"
+
+#: functions.php:33
+msgid "Right Primary Menu"
+msgstr "Правое основное меню"
+
+#: functions.php:32
+msgid "Left Primary Menu"
+msgstr "Левое основное меню"
+
+#: footer.php:31
+msgid "Pets WordPress Theme By"
+msgstr "Pets WordPress тема от"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: archive.php:50 archive.php:82 archive.php:113 archive.php:144
+#: archive.php:177 archive.php:212 image.php:39 image.php:71 image.php:102
+#: image.php:133 image.php:166 image.php:201 index.php:50 index.php:82
+#: index.php:113 index.php:144 index.php:177 index.php:212 search.php:45
+#: search.php:77 search.php:108 search.php:139 search.php:172 search.php:207
+#: single.php:45 single.php:77 single.php:108 single.php:139 single.php:172
+#: single.php:207
+msgid "Page"
+msgstr "Страница"
+
+#: archive.php:49 archive.php:81 archive.php:112 archive.php:143
+#: archive.php:176 archive.php:211 image.php:38 image.php:70 image.php:101
+#: image.php:132 image.php:165 image.php:200 index.php:49 index.php:81
+#: index.php:112 index.php:143 index.php:176 index.php:211 search.php:44
+#: search.php:76 search.php:107 search.php:138 search.php:171 search.php:206
+#: single.php:44 single.php:76 single.php:107 single.php:138 single.php:171
+#: single.php:206
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: archive.php:48 archive.php:80 archive.php:111 archive.php:142
+#: archive.php:175 archive.php:210 image.php:37 image.php:69 image.php:100
+#: image.php:131 image.php:164 image.php:199 index.php:48 index.php:80
+#: index.php:111 index.php:142 index.php:175 index.php:210 search.php:43
+#: search.php:75 search.php:106 search.php:137 search.php:170 search.php:205
+#: single.php:43 single.php:75 single.php:106 single.php:137 single.php:170
+#: single.php:205
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: 404.php:22
+msgid "Return to the home page"
+msgstr "Вернуться на главную страницу"
+
+#: 404.php:20 no-results.php:24
+msgid "Dont worry&hellip it happens to the best of us."
+msgstr "Не волнуйтесь, и это случилось с лучшими из нас."
+
+#: 404.php:19
+msgid "Looks like you have taken a wrong turn&hellip"
+msgstr "Похоже, вы пошли не туда & hellip"
+
+#: 404.php:12
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: 404.php:12
+msgid "404"
+msgstr "404"
+
+#. Author URI of the plugin/theme
+msgid "https://www.vwthemes.com/"
+msgstr "https://www.vwthemes.com/"
+
+#. Author of the plugin/theme
+msgid "VW Themes"
+msgstr "VW Themes"
+
+#. Theme URI of the plugin/theme
+msgid "https://www.vwthemes.com/themes/free-pet-wordpress-theme/"
+msgstr "https://www.vwthemes.com/themes/free-pet-wordpress-theme/"

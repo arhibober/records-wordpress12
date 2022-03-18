@@ -1,0 +1,321 @@
+<?php
+/*
+Template Name: Список читательских голосов
+*/
+
+	define ("WP_USE_THEMES", false);
+	
+
+get_header ();
+?>	
+<section id="primary" class="site-content mcs">
+	<div id="content" 
+
+class="mix-content">
+		<header class="archive-header">
+			<?php
+		
+
+	if (category_description ()) : // Show an optional category description
+			
+
+?>
+				<div class="archive-meta">
+				<?php
+	
+
+				echo category_description ();
+				?>
+	
+
+			</div>
+			<?php endif; ?>
+		</header><!-- 
+
+.archive-header -->
+		<?php			
+		global $user_ID;
+	
+
+	switch ($user_ID)
+		{
+			case 0;
+				
+
+echo "Для перегляду даної сторінки увійдіть, будь ласка, на сайт під своїм акаунтом.";
+		
+
+		break;
+			case 1:
+				echo "<h2>Лайки 
+
+користувачів за всі пости</h2>
+					<table>
+				
+
+		<tr>
+							<th>
+			
+
+					№ п/п
+							
+
+</th>
+							<th>
+					
+
+			Автор
+							</th>
+		
+
+					<th>
+							
+
+	Назва посту
+							</th><th>
+Дата 
+
+посту</th>
+							<th>
+				
+
+				Число голосів
+							
+
+</th>
+						</tr>";
+				$i = 0;
+		
+
+		global $wpdb;
+				$sqlstr = "select blog_id from 
+
+wp_blogs where blog_id!=1";
+				$blogs = $wpdb->get_results ($sqlstr, 
+
+ARRAY_A);
+				//echo " b: ";
+				//print_r 
+
+($blog);
+				$i = 0;
+				$sqlstr = "";
+		
+
+		foreach ($blogs as $blog)
+				{
+			
+
+		if ($i > 0)
+							$sqlstr .= " 
+
+union ";
+					$sqlstr .= "select p.ID as pid, p.post_title 
+
+as pt, p.post_name as pn, p.post_date as pd, pm.meta_value as mv, b.blog_id as bid, b.path as 
+
+bp  from wp_".$blog ["blog_id"]."_posts as p, wp_".$blog ["blog_id"]."_postmeta as pm, 
+
+wp_blogs as b where p.ID=pm.post_id and pm.meta_key='ratings_users' and b.blog_id=".$blog 
+
+["blog_id"];
+					$i++;
+				}
+		
+
+		$sqlstr .=	" order by pd desc";
+
+echo " s ".$sqlstr;				$voises = $wpdb->get_results ($sqlstr, 
+
+ARRAY_A);
+				$i = 0;
+				foreach ($voises as 
+
+$voise)
+				{
+					$i++;
+			
+
+		echo "<tr>
+						<td>".
+			
+
+				$i.
+						"</td>
+		
+
+				<td>";
+						if ($voise 
+
+["bid"] == 14)
+							echo "<a 
+
+href='/rivnodennya9/teachers'>Наші вчителі</a>";
+						
+
+else
+						{
+						
+
+	$sqlstr = "select meta_value from wp_usermeta where meta_key='first_name' and user_id 
+
+in(select user_id from wp_usermeta where meta_key='primary_blog' and meta_value='".$voise 
+
+["bid"]."')";
+							$names = $wpdb->get_results 
+
+($sqlstr, ARRAY_A);
+							$sqlstr = "select 
+
+meta_value from wp_usermeta where meta_key='last_name' and user_id in(select user_id from 
+
+wp_usermeta where meta_key='primary_blog' and meta_value='".$voise ["bid"]."')";
+		
+
+					$sirnames = $wpdb->get_results ($sqlstr, ARRAY_A);
+	
+
+						echo "<a href='".$voise ["bp"]."'>".$names 
+
+[0]["meta_value"]." ".$sirnames [0]["meta_value"]."</a>";
+					
+
+	}
+						echo "</td>
+				
+
+		<td>
+".$voise ["pd"]."</td>
+<td>
+							
+
+<a href='".$voise ["bp"].$voise ["pn"]."'>".$voise ["pt"]."</a>
+					
+
+	</td>
+						<td>".
+					
+
+		$voise ["mv"].
+						"</td>
+			
+
+		</tr>";
+				}
+				echo 
+
+"</table>";
+				break;				
+			
+
+default:
+				echo "<h2>Лайки за ваші пости</h2>
+			
+
+	<table>
+					<tr>
+						
+
+<th>
+							№ п/п
+					
+
+	</th>
+						<th>
+					
+
+		Назва посту
+						</th>
+			
+
+			<th>
+Дата посту</th>
+<th>
+							
+
+Число голосів
+						</th>
+					
+
+</tr>";
+				$i = 0;
+				$sqlstr = "select meta_value 
+
+from wp_usermeta where user_id=".$user_ID." and meta_key='primary_blog'";
+			
+
+	$blog = $wpdb->get_results ($sqlstr, ARRAY_A);
+				$sqlstr = 
+
+"select path from wp_blogs where blog_id=".$blog [0]["meta_value"];
+				
+
+$pathes = $wpdb->get_results ($sqlstr, ARRAY_A);
+				$sqlstr = 
+
+"select p.ID as pid, p.post_title as pt, p.post_name as pn, p.post_date as pd, pm.meta_value 
+
+as mv from wp_".$blog [0]["meta_value"]."_posts as p, wp_".$blog [0]["meta_value"]."_postmeta 
+
+as pm where p.ID=pm.post_id and pm.meta_key='ratings_users' order by pd desc";
+			
+
+	$voises = $wpdb->get_results ($sqlstr, ARRAY_A);
+				
+
+foreach ($voises as $voise)
+				{
+					
+
+$i++;
+					echo "<tr>
+						
+
+<td>".
+							$i.
+					
+
+	"</td>
+						<td>
+					
+
+		<a href='".$pathes [0]["path"].$voise ["pn"]."'>".$voise ["pt"]."</a>
+		
+
+				</td>
+						<td>".
+		
+
+					$voise ["mv"].
+						
+
+"</td>
+						</tr>";
+				}		
+
+		
+				echo "</table>";
+			}
+	
+
+	?>
+
+		</div><!-- #content -->
+	</section><!-- #primary -->
+
+<?php
+	
+
+get_sidebar ();
+	get_footer ();
+?>	?>
+
+		</div><!-- #content -->
+	</section><!-- 
+
+#primary -->
+
+<?php
+	get_sidebar ();
+	get_footer ();
+?>

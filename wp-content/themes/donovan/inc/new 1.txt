@@ -1,0 +1,2 @@
+5.09.2018
+http://qaru.site/questions/8036889/exclude-wordpress-category-from-getthecategorylist, http://qaru.site/questions/5526370/wordpress-exclude-tag-from-getthetaglist/11700495#11700495 - исключить категории для функции get_the_category_list
